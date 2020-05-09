@@ -76,3 +76,9 @@ p {
   }
 }
 
+@media (min-width: 1500px) {
+  .textField {
+    width: 45vw;
+    height: 65vh;
+  }
+}
