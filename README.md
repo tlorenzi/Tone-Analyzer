@@ -1,7 +1,7 @@
 # Tone-Analyzer
 How to run locally: 
 1) enter your API key in the index.js file (the one in the root directory)
-2) in the root directory of the project run "npm run build"
+2) in the root directory of the project run "npm run heroku-postbuild"
 3) in the root directory of the project run "npm start"
 4) open http://localhost:3001/
 
