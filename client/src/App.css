@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background: rgba(119, 0, 255, 0.6951155462184874);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(191, 14, 169, 0.6138830532212884) 0%,
+    rgba(119, 0, 255, 0.6951155462184874) 100%
+  );
+}
+
+nav {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  background: rgba(166, 111, 233, 0.695);
+}
+
+.textField {
+  margin: auto;
+  width: 500px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.textField > textarea {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 20px;
+  height: 80%;
+  overflow: scroll;
+  font-size: 1em;
+}
+
+button {
+  background-color: blueviolet;
+  padding: 5px 10px 5px 10px;
+  font-size: 1.2em;
+  margin-right: 15px;
+  color: white;
+  min-height: 50px;
+  min-width: 200px;
+  border-radius: 7%;
+}
+
+.textField > div {
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  color: white;
+}
+
+#text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
