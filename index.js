@@ -17,7 +17,7 @@ app.use(express.static(path.join(__dirname, "client/build")));
 const toneAnalyzer = new ToneAnalyzerV3({
   version: "2017-09-21",
   authenticator: new IamAuthenticator({
-    apikey: "hMgqwfo_gzYKSBZNrCJ2U-LqChBRsMeik_5gAFCty6ul",
+    apikey: "ENTER YOUR API KEY HERE",
   }),
   url:
     "https://api.us-south.tone-analyzer.watson.cloud.ibm.com/instances/ddac658e-52c4-463a-810b-f54d2c3283e4",
