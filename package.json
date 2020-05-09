@@ -21,7 +21,7 @@
   },
   "scripts": {
     "start": "node index.js",
-    "build": "cd client && npm install && npm run build"
+    "heroku-postbuild": "cd client && npm install && npm run build"
   },
   "browserslist": {
     "production": [
